@@ -921,7 +921,7 @@ int wmain(int argc, wchar_t** argv) {
         if (args.interactive || args.preview_only) {
             std::wcout << L"\n预览模式: 不会实际删除文件\n";
         } else {
-            std::wcout << L"\n确认删除? (输入 yes 确认): ";
+            std::wcout << L"\n确认删除?(yes 确认): ";
             std::wstring confirm;
             std::getline(std::wcin, confirm);
             if (confirm == L"yes") {
