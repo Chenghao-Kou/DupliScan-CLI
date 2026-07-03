@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(msbuild DupliScan.vcxproj /p:Configuration=Release /p:Platform=x64)",
+      "Bash(cmd /c:*)",
+      "Bash(cl.exe:*)"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DupliScan.vcxproj" Id="c8ea6746-37bf-4cd8-b95b-fd464d4fd2cc" />
+</Solution>
